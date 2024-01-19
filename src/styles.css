@@ -1,1 +1,142 @@
-/* You can add global styles to this file, and also import other style files */
+.abt-btn a {
+    /* color: rgb(0, 0, 0);
+    transition: 0.5s;
+    padding: 22px 72px;
+    text-decoration: none; */
+    /* background-image: url(../images/Rectangle\ 2\ copy\ 3.png); */
+}
+.about-column-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.about-ctn h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.about-column img {
+    height: 100%;
+    max-width: 500px;
+}
+.about-ctn p {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    max-width: 420px;
+    line-height: 23px;
+}
+.about-column {
+    width: 50%;
+}
+.about-clm {
+    width: 50%;
+}
+.abt-btn {
+    padding-top: 60px;
+}
+/* .abt-btn a:hover {
+    background-image: inherit;
+    background-color: #000000;
+    clip-path: polygon(0 0,100% 0,86% 100%,0% 100%);
+    color: black!important;
+} */
+.about-ctn span {
+    color: #f4e723;
+}
+.us-img img {
+    height: 100%;
+    width: 100%;
+    max-width: 440px;
+}
+.abt-parent {
+    display: flex;
+}
+.us-parent {
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+}
+.about-menu li {
+    list-style: none;
+    position: relative;
+}
+.about-menu a {
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+}
+.abt-us-column {
+    width: 50%;
+}
+.us-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+section#about {
+    /* background-image: url(../images/Layer\ 6.png); */
+    padding: 100px 0;
+}
+.abt-heading {
+    color: rgb(0, 0, 0);
+}
+.about-menu ul {
+    line-height: 34px;
+    font-size: 13px;
+    max-width: 340px;
+}
+.about-menu {
+    padding-top: 25px;
+    margin-left: 40px;
+}
+.about-menu li::after {
+    content: "";
+    left: -49px;
+    top: 3px;
+    /* background-image: url(../images/Shape\ 6\ copy.png); */
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+button.btn {
+    color: rgb(255, 255, 255);
+    padding: 15px 53px;
+    background: linear-gradient(
+      180deg,
+      rgb(218, 0, 0) 29.41%,
+      rgb(114.75, 0, 0) 100%);
+    border-radius: inherit;
+    font-size: 20px;
+}
+button.btn:hover {
+    color: white;
+}
+.about-ctn p {
+    color: #000;
+    font-family: "DM Serif Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    max-width: 640px;
+    line-height: 120%;
+    text-transform: capitalize;
+    
+}
+.line h1{
+    background: var(--red-gradient, linear-gradient(76deg, #DA0000 31.22%, #730000 89.78%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 20px;
+}
+.line{
+    gap: 14px;
+}
+.line.d-flex {
+    margin-bottom: 70px;
+}
+button.btn {
+    margin-top: 70px;
+}
