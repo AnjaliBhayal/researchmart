@@ -137,6 +137,142 @@ font-size: 20px;
 .line.d-flex {
     margin-bottom: 70px;
 }
+.serviceline.d-flex {
+    /* margin-bottom: 70px; */
+}
 button.btn {
     margin-top: 70px;
+}
+
+.serviceline h1 {
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+    font-weight: lighter;
+}
+button.service-btn {
+    color: rgb(255, 255, 255);
+    padding: 15px 53px;
+    background: linear-gradient(
+      180deg,
+      rgb(218, 0, 0) 29.41%,
+      rgb(114.75, 0, 0) 100%);
+    border-radius: inherit;
+    font-size: 20px;
+    border: none;
+}
+.services-parent {
+    background-color: #1F1F27;
+    height: 1118px;
+}
+h1.heading {
+    color: white;
+}
+
+/* services rectangle column */
+.col-sm {
+    color: white;
+}
+.rectangle.col-sm {
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    border: 1px solid #1F1F27;
+    text-align: center;
+}
+.rectangele-parent {
+    padding-top: 100px;
+}
+.services-clm.d-flex.align-item-center.justify-content-between {
+    padding-top: 50px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: blue; /* Initial color */
+    transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+.rectangle:hover {
+    background-color: red; /* Color on hover */ 
+    background: linear-gradient(
+        180deg,
+        rgb(218, 0, 0) 29.41%,
+        rgb(114.75, 0, 0) 100%);
+}
+/* .parent ::after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+.parent{
+    position: relative;
+} */
+
+.box {
+    height: 470px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 97px;
+    width: 85%;
+    height: 100%;
+    background-image: url(../src/assets/img/rectangle-16.png); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.box::before {
+    content: "";
+    position: absolute;
+    top: 77px;
+    /* left: 97px; */
+    width: 84%;
+    height: 100%;
+    background-image:url(../src/assets/img/rectangle-16.png); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.box {
+    height: 470px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section#pricing {
+    padding-top: 420px;
+}
+.pricing-heading h1{
+    color: black;
+}
+.pricing-clm {
+    display: flex;
+    justify-content: center;
+}
+.pricing-ctn {
+    text-align: center;
+}
+h1.pricing-heading {
+    padding-top: 10px;
 }
