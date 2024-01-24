@@ -538,3 +538,11 @@ p.element-bhoomi-gardenia {
     justify-content: center;
     width: 900px;
 }
+p.element-bhoomi-gardenia {
+    font-size: 12px;
+    font-weight: lighter;
+    max-width: 298px;
+}
+.footer3-column {
+    padding-top: 15px;
+}
