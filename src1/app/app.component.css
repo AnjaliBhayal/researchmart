@@ -1,0 +1,16 @@
+.header-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    width: 1170px;
+    margin: 0 auto;
+}

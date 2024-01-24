@@ -1,39 +1,39 @@
+.abt-btn a {
+    /* color: rgb(0, 0, 0);
+    transition: 0.5s;
+    padding: 22px 72px;
+    text-decoration: none; */
+    /* background-image: url(../images/Rectangle\ 2\ copy\ 3.png); */
+}
 .about-column-parent {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
 }
-
 .about-ctn h1 {
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
-
 .about-column img {
     height: 100%;
     max-width: 500px;
 }
-
 .about-ctn p {
     font-size: 13px;
     color: rgb(0, 0, 0);
     max-width: 420px;
     line-height: 23px;
 }
-
 .about-column {
     width: 50%;
 }
-
 .about-clm {
     width: 50%;
 }
-
 .abt-btn {
     padding-top: 60px;
 }
-
 /* .abt-btn a:hover {
     background-image: inherit;
     background-color: #000000;
@@ -43,63 +43,51 @@
 .about-ctn span {
     color: #f4e723;
 }
-
 .us-img img {
     height: 100%;
     width: 100%;
     max-width: 440px;
 }
-
 .abt-parent {
     display: flex;
 }
-
 .us-parent {
     display: flex;
     padding-top: 120px;
     justify-content: center;
 }
-
 .about-menu li {
     list-style: none;
     position: relative;
 }
-
 .about-menu a {
     text-decoration: none;
     /* color: rgb(0, 0, 0); */
 }
-
 .abt-us-column {
     width: 50%;
 }
-
 .us-img {
     width: 50%;
     display: flex;
     justify-content: center;
 }
-
 section#about {
     /* background-image: url(../images/Layer\ 6.png); */
     padding: 100px 0;
 }
-
 .abt-heading {
     color: rgb(0, 0, 0);
 }
-
 .about-menu ul {
     line-height: 34px;
     font-size: 13px;
     max-width: 340px;
 }
-
 .about-menu {
     padding-top: 25px;
     margin-left: 40px;
 }
-
 .about-menu li::after {
     content: "";
     left: -49px;
@@ -115,17 +103,16 @@ section#about {
 button.btn {
     color: rgb(255, 255, 255);
     padding: 15px 53px;
-    background: linear-gradient(180deg,
-            rgb(218, 0, 0) 29.41%,
-            rgb(114.75, 0, 0) 100%);
+    background: linear-gradient(
+      180deg,
+      rgb(218, 0, 0) 29.41%,
+      rgb(114.75, 0, 0) 100%);
     border-radius: inherit;
     font-size: 20px;
 }
-
 button.btn:hover {
     color: white;
 }
-
 .about-ctn p {
     color: #000;
     font-family: "DM Serif Display";
@@ -135,25 +122,24 @@ button.btn:hover {
     max-width: 640px;
     line-height: 120%;
     text-transform: capitalize;
-
+    
 }
-
-.line h1 {
+.line h1{
     background: var(--red-gradient, linear-gradient(76deg, #DA0000 31.22%, #730000 89.78%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 20px;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 20px;
 }
-
-.line {
+.line{
     gap: 14px;
 }
-
 .line.d-flex {
     margin-bottom: 70px;
 }
-
+.serviceline.d-flex {
+    /* margin-bottom: 70px; */
+}
 button.btn {
     margin-top: 70px;
 }
@@ -164,23 +150,21 @@ button.btn {
     margin: 0 10px;
     font-weight: lighter;
 }
-
 button.service-btn {
     color: rgb(255, 255, 255);
     padding: 15px 53px;
-    background: linear-gradient(180deg,
-            rgb(218, 0, 0) 29.41%,
-            rgb(114.75, 0, 0) 100%);
+    background: linear-gradient(
+      180deg,
+      rgb(218, 0, 0) 29.41%,
+      rgb(114.75, 0, 0) 100%);
     border-radius: inherit;
     font-size: 20px;
     border: none;
 }
-
 .services-parent {
     background-color: #1F1F27;
     height: 1118px;
 }
-
 h1.heading {
     color: white;
 }
@@ -189,7 +173,6 @@ h1.heading {
 .col-sm {
     color: white;
 }
-
 .rectangle.col-sm {
     height: 350px;
     width: 300px;
@@ -201,11 +184,9 @@ h1.heading {
     border: 1px solid #1F1F27;
     text-align: center;
 }
-
 .rectangele-parent {
     padding-top: 100px;
 }
-
 .services-clm.d-flex.align-item-center.justify-content-between {
     padding-top: 50px;
 }
@@ -213,20 +194,17 @@ h1.heading {
 .rectangle {
     width: 200px;
     height: 100px;
-    background-color: blue;
-    /* Initial color */
-    transition: background-color 0.3s ease;
-    /* Transition effect for smooth color change */
+    background-color: blue; /* Initial color */
+    transition: background-color 0.3s ease; /* Transition effect for smooth color change */
 }
 
 .rectangle:hover {
-    background-color: red;
-    /* Color on hover */
-    background: linear-gradient(180deg,
-            rgb(218, 0, 0) 29.41%,
-            rgb(114.75, 0, 0) 100%);
+    background-color: red; /* Color on hover */ 
+    background: linear-gradient(
+        180deg,
+        rgb(218, 0, 0) 29.41%,
+        rgb(114.75, 0, 0) 100%);
 }
-
 /* .parent ::after {
     content: "";
     position: absolute;
@@ -254,13 +232,11 @@ h1.heading {
     left: 97px;
     width: 85%;
     height: 100%;
-    background-image: url(../src/assets/img/rectangle-16.png);
-    /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    background-image: url(../src/assets/img/rectangle-16.png); /* Replace 'your-image-url.jpg' with the URL or path to your image */
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
-
 .box::before {
     content: "";
     position: absolute;
@@ -268,167 +244,35 @@ h1.heading {
     /* left: 97px; */
     width: 84%;
     height: 100%;
-    background-image: url(../src/assets/img/rectangle-16.png);
+    background-image:url(../src/assets/img/rectangle-16.png); 
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 }
-
 .box {
     height: 470px;
     width: 100%;
     background-color: #ffffff;
     position: relative;
 }
-
 .box1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 section#pricing {
     padding-top: 420px;
 }
-
-.pricing-heading h1 {
+.pricing-heading h1{
     color: black;
 }
-
 .pricing-clm {
     display: flex;
     justify-content: center;
 }
-
 .pricing-ctn {
     text-align: center;
 }
-
 h1.pricing-heading {
     padding-top: 10px;
-}
-
-
-
-.pricing-column-parent {
-    width: 685px;
-    margin: 0 auto;
-}
-
-div#accordionFlushExample {
-    padding-top: 20px;
-}
-
-button.accordion-button.collapsed {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-
-/* testimonial */
-.testimonial-parent {
-    background-color: #FBFBF9;
-    padding: 50px 0px;
-}
-
-section#testimonial {
-    padding-top: 50px;
-}
-
-img.testimonial {
-    max-width: 124px;
-}
-
-.testimonial-text {
-    font-size: 24px;
-}
-
-p.card-text {
-    font-size: 13px;
-    padding-top: 25px;
-}
-
-/* testimonial */
-.form-group {
-    margin: 16px 0;
-    /* width: 100%; */
-}
-
-.form-column-parent {
-    width: 35%;
-    margin: 0 auto;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 33px;
-    color: var(--bs-body-color);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-color: var(--bs-body-bg);
-    background-clip: padding-box;
-    border: var(--bs-border-width) solid var(--bs-border-color);
-    border-radius: var(--bs-border-radius);
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
-label {
-    font-weight: 500;
-    font-size: 15px;
-    margin-bottom: 8px;
-}
-
-input#exampleInputEmail1 {
-    font-size: 14px;
-}
-
-button.form.btn-primary {
-    width: 100%;
-    background-color: #2F54A1;
-    padding: 8px 10px;
-}
-
-section#form {
-    padding: 60px 0;
-}
-
-input#exampleInputEmail1 {
-    padding: 10px 10px;
-    border-radius: 0;
-}
-
-
-.overlap-13 {
-    color: white;
-    background-color: #1F1F27;
-}
-
-.desktop .overlap {
-    position: absolute;
-    width: 1440px;
-    height: 824px;
-    top: 0;
-    left: 0;
-    background-color: #1f1f27;
-}
-
-.desktop .overlap-group {
-    position: absolute;
-    width: 1248px;
-    height: 824px;
-    top: 0;
-    left: 192px;
-}
-
-.group-31 {
-    height: 100%;
-    justify-content: center;
-    width: 850px;
-    background-color: black;
-    margin: 0 auto;
 }
