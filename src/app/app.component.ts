@@ -27,7 +27,7 @@ export class AppComponent {
 
    openModel(data:any){
     this.modalService.open(data, {
-      size: "sm",
+      size: "md",
       centered: true,
       scrollable: true,
       keyboard: false,
