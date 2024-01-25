@@ -183,6 +183,7 @@ button.service-btn {
 
 h1.heading {
     color: white;
+    font-size: 2.5rem;
 }
 
 /* services rectangle column */
@@ -295,10 +296,10 @@ section#pricing {
     color: black;
 }
 
-.pricing-clm {
+/* .pricing-clm {
     display: flex;
     justify-content: center;
-}
+} */
 
 .pricing-ctn {
     text-align: center;
@@ -310,10 +311,10 @@ h1.pricing-heading {
 
 
 
-.pricing-column-parent {
+/* .pricing-column-parent {
     width: 685px;
     margin: 0 auto;
-}
+} */
 
 div#accordionFlushExample {
     padding-top: 20px;
@@ -495,10 +496,10 @@ p.element-bhoomi-gardenia {
     margin: 0 auto;
 }
 /* slider css */
-.cards-wrapper {
+/* .cards-wrapper {
     display: flex;
     justify-content: center;
-  }
+  } */
   .card img {
     max-width: 100%;
     max-height: 100%;
@@ -528,7 +529,7 @@ p.element-bhoomi-gardenia {
 .cards-wrapper {
     display: flex;
     justify-content: center;
-    width: 900px;
+    /* width: 1170px; */
 }
 p.element-bhoomi-gardenia {
     font-size: 12px;
@@ -627,4 +628,88 @@ button.form1.btn-primary {
 }
 .banner-image {
     text-align: end;
+}
+button.form1 {
+    padding: 13px 10px;
+}
+.accordion-body {
+    text-align: left;
+}
+.red-rectangle {
+    background: linear-gradient(
+      180deg,
+      rgb(218, 0, 0) 29.41%,
+      rgb(114.75, 0, 0) 100%);
+    height: 36px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+  
+  .carousel-indicators button.thumbnail {
+    width: 100px;
+  }
+  .carousel-indicators button.thumbnail:not(.active) {
+    opacity: 0.7;
+  }
+  .carousel-indicators {
+    position: static;
+  }
+  @media screen and (min-width: 992px) {
+    .carousel {
+      /* max-width: 70%; */
+      margin: 0 auto;
+    }
+  }
+  button.carousel-control-prev {
+    width: 18px !important;
+}
+
+button.carousel-control-next {
+    width: 18px !important;
+}
+
+.col-md-2 li{
+    list-style: none;
+}
+
+.card {
+    padding: 50px;
+}.col-md-2 li {
+    list-style: none;
+    margin: 13px 0;
+    font-weight: 600;
+}
+
+
+
+/* Add this style to your existing CSS */
+.detail  {
+    color: red;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    display: grid;
+    align-items: center;
+}
+button.read-more {
+    background: none;
+    border: none;
+    color: red;
+    font-weight: 400;
+}.stock-heading p {
+    max-width: 345px;
+}
+/* .card {
+    width: 1000px;
+} */
+.stock-heading {
+    text-align: start;
 }
