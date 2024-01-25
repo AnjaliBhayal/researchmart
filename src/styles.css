@@ -512,15 +512,7 @@ p.element-bhoomi-gardenia {
   .carousel-inner {
     padding: 1em;
   }
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 5vh;
-    height: 5vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+ 
   @media (min-width: 768px) {
     .card img {
       height: 11em;
@@ -545,4 +537,91 @@ p.element-bhoomi-gardenia {
 }
 .footer3-column {
     padding-top: 15px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the background color to black */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: white; /* Set the text color to white */
+}
+/* header css */
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 29px;
+}
+button.get-btn1 {
+    color: rgb(255, 255, 255);
+    padding: 15px 53px;
+    background: linear-gradient(
+      180deg,
+      rgb(218, 0, 0) 29.41%,
+      rgb(114.75, 0, 0) 100%);
+    border-radius: inherit;
+    font-size: 20px;
+    border: none;
+}
+.header-menu li {
+    list-style: none;
+    margin: 0 20px;
+}
+a.nav-link.active:hover {
+    color: #a40000;
+}
+/* .banner-parent {
+    background-color: #1F1F27;
+    color: white;
+} */
+.header-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 25px 0;
+    z-index: 999;
+}
+section.banner{
+    /* background-image: url(../images/Layer\ 4.png);    */
+    /* padding: 330px 0; */
+    position: relative;
+}
+.banner-parent {
+    /* background-color: #1F1F27; */
+    background-image: url(../src/assets/img/Group\ 111.png);
+    color: white;
+    height: 700px;
+    padding: 178px 0;
+}
+.banner-ctn {
+    max-width: 600px;
+}
+.banner-ctn h1 {
+    font-size: 60px;
+}
+.form-group {
+    margin: 16px 0;
+    width: 43%;
+}
+button.form1.btn-primary {
+    width: 100%;
+    background-color: #2F54A1;
+    padding: 8px 10px;
+}
+.form1 {
+    width: 43%;
+    padding: 8px 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}.banner-image img {
+    height: 100%;
+    width: 43%;
+    max-width: 340px;
+}
+.banner-image {
+    text-align: end;
 }

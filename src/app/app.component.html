@@ -42,17 +42,18 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <div class="container">
-        <!-- <a class="navbar-brand" href="javascript:void(0)">Logo</a> -->
-        <div class="header-logo">
+    <nav class="header-section">
+      <div class="container"> 
+       <div class="header-parent">
+         <!-- <a class="navbar-brand" href="javascript:void(0)">Logo</a> -->
+         <div class="header-logo">
           <a href=""><img src="../assets/img/background-1.svg" alt="" /></a>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </button> -->
+        <div class="header-menu">
+          <ul class="d-flex align-item-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -66,26 +67,46 @@
               <a class="nav-link active" aria-current="page" href="#">Contact us</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-            <button class="btn btn-primary" type="button">Get in Touch</button>
-          </form>
         </div>
+          <div class="get-btn">
+            <button class="get-btn1" type="button">Get in Touch</button>
+          </div>
+        
+       </div>
       </div>
     </nav>
 
     <section class="banner">
-      <div class="container">
+      <div class="container-fluid">
         <div class="banner-parent">
-          <div class="banner-ctn">
-            <h1>
-              Get The Best <span>Protection</span> For Your
-              <span>Investments</span>
-            </h1>
+          <div class="container">
+            <div class="banner-ctn">
+              <h1>
+                Unlock Your Path to Profit With Our Stock Recommendations
+              </h1>
+            </div>
+            <div class="form-parent">
+              <form>
+                <div class="form-group">
+                  <!-- <label for="exampleInputEmail1">Full Name</label> -->
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                  <!-- <label for="exampleInputEmail1">Email</label> -->
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                  <!-- <label for="exampleInputEmail1">Phone Number</label> -->
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter Phone Number">
+                </div>
+                <button type="submit" class="form1">Submit</button>
+              </form>
+            </div>
           </div>
-          <div class="banner-btn">
-            <a href="">CONTACT US</a>
-          </div>
+
         </div>
       </div>
     </section>
@@ -437,15 +458,18 @@
                       </div>
                     </div>
                   </div>
-                 
+                  
+                  <!-- Your existing HTML code for carousel controls -->
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <!-- <span class="visually-hidden" style="color: black;">Previous</span> -->
                   </button>
+                  
                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <!-- <span class="visually-hidden">Next</span> -->
                   </button>
+                  
                 </div>
               </div>
             </div>

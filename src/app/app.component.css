@@ -1,8 +1,8 @@
-.header-parent {
+/* .header-parent {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 .menu ul {
     display: flex;
     text-decoration: none;
