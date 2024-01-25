@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component ,ViewChild,ElementRef} from '@angular/core';
+import { CommonModule ,} from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -12,6 +12,25 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
+  @ViewChild("content",{static:true}) content:ElementRef | undefined;
+
   title = 'researchmart';
+  constructor(  private modalService: NgbModal) {
+
+  }
+   ngOnInit(): void {
+    this.openModel(this.content)
+    
+   }
+
+   openModel(data:any){
+    this.modalService.open(data, {
+      size: "sm",
+      centered: true,
+      scrollable: true,
+      keyboard: false,
+    });
+   }
 }

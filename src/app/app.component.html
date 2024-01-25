@@ -47,7 +47,7 @@
        <div class="header-parent">
          <!-- <a class="navbar-brand" href="javascript:void(0)">Logo</a> -->
          <div class="header-logo">
-          <a href=""><img src="../assets/img/background-1.svg" alt="" /></a>
+          <a  (click)="openModel(content)"><img src="../assets/img/background-1.svg" alt="" /></a>
         </div>
         <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
@@ -229,7 +229,7 @@
                 <h1 class="pricing-heading">
                   Pricing
                 </h1>
-
+               
               </div>
             </div>
 
@@ -668,7 +668,24 @@
 
   <!-- about section -->
 
-
+  <ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title">Modal title</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    <div class="modal-body">
+      <p>One fine body&hellip;</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+    </div>
+  </ng-template>
+  
+  
+  
+  
 </body>
 
 </html>
