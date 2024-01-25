@@ -351,7 +351,7 @@ p.card-text {
 /* testimonial */
 .form-group {
     margin: 16px 0;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .form-column-parent {
@@ -398,7 +398,7 @@ section#form {
 }
 
 input#exampleInputEmail1 {
-    padding: 10px 10px;
+    padding: 14px 13px;
     border-radius: 0;
 }
 
@@ -604,7 +604,10 @@ section.banner{
 }
 .form-group {
     margin: 16px 0;
-    width: 43%;
+    /* width: 43%; */
+}
+button.form1 {
+    width: 100%;
 }
 button.form1.btn-primary {
     width: 100%;
