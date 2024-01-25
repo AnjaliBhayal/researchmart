@@ -713,3 +713,7 @@ button.read-more {
 .stock-heading {
     text-align: start;
 }
+button.close {
+    border: none;
+    background: none;
+}
